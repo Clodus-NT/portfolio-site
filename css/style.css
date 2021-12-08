@@ -122,7 +122,7 @@ a:active {
     margin: 0 auto;
 }
 
-.button {
+.resume-button {
     border: none;
     display: inline-block;
     font-family: inherit;
@@ -140,7 +140,7 @@ a:active {
     cursor: pointer;
     opacity: 0.8;
 }
-    /* About Animation */
+    /* About Animation *//*
 #about-picture {
     background-color: white;
 } 
@@ -155,7 +155,7 @@ a:active {
     100% {
         fill: #f76414;
     }
-}
+} */
 
 .sun {
     animation: 4s color-change infinite alternate linear;
