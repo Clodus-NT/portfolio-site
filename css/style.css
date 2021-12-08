@@ -122,6 +122,12 @@ a:active {
     margin: 0 auto;
 }
 
+.resume-button_container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .resume-button {
     border: none;
     display: inline-block;
@@ -205,10 +211,11 @@ a:active {
 }
 
 .project-list_item {
-    background-color: lightgray;
+    border: solid white;
     width: auto;
     min-height: auto;
     margin: 0;
+    text-align: center;
 }
 
 .project-list_item:last-child {
