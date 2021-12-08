@@ -194,6 +194,26 @@ a:active {
 }
 
 /* */
+/* Contact Page */
+.contact-spread_container {
+    max-width: 700px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.contact-form_container {
+    
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.standard-label {
+    padding: 10px;
+    
+}
+
+/* */
 /* Works Page Grid */
 .project-list_item {
     display: inline-block;
@@ -222,9 +242,6 @@ a:active {
     grid-column: 3 / 3;
     grid-row: 1 / 3;
 }
-
-/* */
-/* Contact Page */
 
 /* */
 /* Responsive Fallbacks */

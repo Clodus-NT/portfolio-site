@@ -43,30 +43,35 @@
     </div>
 
     <!--Contact Spread-->
-    <div>
-        Nick Turner<br>
-        123 Happy St.<br>
-        Happytown, WA 98012<br>
-        <br>
-        Tel <a href="tel:+########">+#-###-####</a><br>
-        <a href="mailto:chili-cheese@dog.com">chili-cheese@dog.com</a><br>
-        <a href="mailto:chili-cheese@dog.com">Contact me!</a>
+    <div class="contact-spread_container">
+        <div class="contact-spread">
+            Nick Turner<br>
+            123 Happy St.<br>
+            Happytown, WA 98012<br>
+            <br>
+            Tel <a href="tel:+########">+#-###-####</a><br>
+            <a href="mailto:chili-cheese@dog.com">chili-cheese@dog.com</a><br>
+            <a href="mailto:chili-cheese@dog.com">Contact me!</a>
+        </div>
     </div>
 
     <!--Contact Form-->
-    <form action="" method="post" id="contact-form">
-        <label class="standard-label" for="contact-email">Email: </label>
-        <input type="email" id="contact-email" required>
+    <div class="contact-form_container">
+        <form action="" method="post" id="contact-form">
+            <label class="standard-label" for="contact-email">Email: </label>
+            <input type="email" id="contact-email" required>
+    
+            <label class="standard-label" for="contact-phone">Phone: </label>
+            <input type="tel" id="contact-phone">
+            
+            <br>
 
-        <label class="standard-label" for="contact-phone">Phone: </label>
-        <input type="tel" id="contact-phone">
-        
-        <label class="standard-label" for="contact-message">Message: </label>
-        <textarea maxlength="240" required id="contact-message"></textarea>
+            <label class="standard-label" for="contact-message">Message: </label>
+            <textarea maxlength="240" required id="contact-message"></textarea>
 
-        <input type="submit" value="Send message">
-    </form>
-
+            <input type="submit" value="Send message">
+        </form>
+    </div>
     <!--Link to Socials-->
     <footer class="page-footer">
         <p class="text-footer">Find me on</p>
